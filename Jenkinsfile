@@ -1,10 +1,10 @@
 pipeline{
     agent any
 
-    tools {
+    //tools {
         // 下面这行可以自动安装maven
        //  maven 'mvn-3.5.4'
-    }
+    //}
 
     stages {
         stage('Build'){
