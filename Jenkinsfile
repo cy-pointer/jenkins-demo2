@@ -14,6 +14,7 @@ pipeline{
                 }
                 // sh "mvn clean package spring-boot:repackage"
                 sh "printenv" // 将环境变量打印到 console 中
+                echo "测试自动构建"
             }
         }
     }
